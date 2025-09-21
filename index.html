@@ -5,32 +5,140 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; color: #333; }
-    h1 { color: #0077cc; }
-    .card { background: #fff; padding: 20px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #0077cc;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 8px 0;
+    }
+    .cert-card {
+      margin: 15px 0;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    .cert-card img {
+      max-width: 200px;
+      border-radius: 6px;
+      margin-top: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #0077cc;
+      color: white;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello, I’m [Your Name] 👩‍💻</h1>
-  <p>Welcome to my portfolio website hosted on GitHub Pages.</p>
+  <header>
+    <h1>Hello, I’m Madhumita 👩‍💻</h1>
+    <p>Workforce Management-RTA | Power BI | Excel | SQL | Python Basics | Reporting Automation</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <div class="card">
+  <section id="about">
     <h2>💼 About Me</h2>
-    <p>I am experienced in WFM RTA, Power BI, Excel, VBA, and reporting automation.</p>
-  </div>
+    <p>I am an experienced professional in WFM RTA and MIS reporting. I build performance dashboards, automate reports using VBA & Excel, and create insights with Power BI. My experience includes working with companies like Wipro, Samsung, and Concentrix.</p>
+  </section>
 
-  <div class="card">
+  <section id="skills">
+    <h2>⚡ Skills</h2>
+    <ul>
+      <li>Power BI – Dashboards & KPIs</li>
+      <li>Excel – Advanced Formulas, Pivot Tables</li>
+      <li>VBA – Automation Scripts</li>
+      <li>Workforce Management Tools – IEX, NICE, Avaya, Teleopti</li>
+      <li>Data Reporting & Analysis</li>
+    </ul>
+  </section>
+
+  <section id="projects">
     <h2>📊 Projects</h2>
     <ul>
-      <li><a href="https://github.com/your-username/project1">Power BI Dashboard</a></li>
-      <li><a href="https://github.com/your-username/project2">Excel VBA Automation</a></li>
+      <li><a href="https://github.com/your-username/wfm-dashboard">WFM Dashboard – Power BI</a></li>
+      <li><a href="https://github.com/your-username/vba-automation">Excel VBA Report Automation</a></li>
+      <li><a href="https://github.com/your-username/shrinkage-analysis">Shrinkage & Adherence Analysis</a></li>
     </ul>
-  </div>
+  </section>
 
-  <div class="card">
-    <h2>📬 Contact</h2>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">yourprofile</a></p>
-    <p>Email: your@email.com</p>
-  </div>
+  <section id="certifications">
+    <h2>🎓 Certifications</h2>
+
+    <div class="cert-card">
+      <h3>Simplilearn Certified: Big Data & Hadoop</h3>
+      <p>Issued by Microsoft · 2023</p>
+      <a href="https://github.com/kkhushii09-ship-it/Portfolio/blob/main/certificates/309479.pdf" target="_blank">📄 View Certificate (PDF)</a><br>
+      <img src="https://github.com/kkhushii09-ship-it/Portfolio/blob/main/certificates/309479.png" alt="Microsoft Data Analyst Certificate">
+    </div>
+
+    <div class="cert-card">
+      <h3>Python with AI</h3>
+      <p>Issued by AI for Techies · 2022</p>
+      <a href="https://github.com/kkhushii09-ship-it/Portfolio/blob/main/certificates/Certificate%20(1)%20(1).pdf" target="_blank">📄 View Certificate (PDF)</a><br>
+      <img src="https://github.com/kkhushii09-ship-it/Portfolio/blob/main/certificates/Certificate%20(1)%20(1).png" alt="Excel VBA Specialist Certificate">
+    </div>
+
+    <div class="cert-card">
+      <h3>SQL Advanced</h3>
+      <p>Issued by HackerRank · 2021</p>
+      <a href="https://github.com/kkhushii09-ship-it/Portfolio/blob/main/certificates/sql_advanced%20certificate.pdf" target="_blank">📄 View Certificate (PDF)</a><br>
+      <img src="https://github.com/kkhushii09-ship-it/Portfolio/blob/main/certificates/sql_advanced%20certificate.png" alt="WFM Certificate">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📬 Contact : 9019003421</h2>
+    <p>📧 Email: kkhushii.09@gmail.com</p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/madhu-mita-8b0712236/" target="_blank">https://www.linkedin.com/in/madhu-mita-8b0712236/</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Madhumita | Portfolio Website</p>
+  </footer>
 </body>
 </html>
